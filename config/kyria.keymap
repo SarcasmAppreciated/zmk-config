@@ -37,7 +37,7 @@
                   &kp RET &kp SPC &kp BKSP &kp LALT &kp LSFT            &kp RET  &kp SPC  &kp TAB &kp BKSP &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_cp LBKT R &inc_dec_kp PGUP PGDN>;
+            sensor-bindings = <&inc_dec_cp LBKT RBKT &inc_dec_kp PGUP PGDN>;
         };
     };
 };
