@@ -29,12 +29,12 @@
 // |  ESC  |  L CTRL  |  L  |  M   |  E   |  B   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
 // |  TAB  |  V  |  UARW  |  Z   |  C   |  X   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
 // | M(1) |  LARW  |  DARW  |  RARW   |  T   |  R   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
-//                     | RET  | SPACE  | BKSP  |  L ALT  |   L SHIFT   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
+//                     | RET  | SPACE  | RET  |  L ALT  |   L SHIFT   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
             bindings = <
     &kp ESC  &kp LCTL &kp L &kp M &kp E &kp B                                            &kp Y &kp U  &kp I    &kp O   &kp P    &kp BSLH
     &kp TAB  &kp V &kp UARW &kp Z &kp C &kp X                                            &kp H &kp J  &kp K    &kp L   &kp SCLN &kp QUOT
     &tog PS &kp LARW &kp DARW &kp RARW &kp T &kp R &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RCTL
-                  &kp RET &kp SPC &kp BKSP &kp LALT &kp LSFT            &kp RET  &kp SPC  &kp TAB &kp BKSP &kp RALT
+                  &kp RET &kp SPC &kp RET &kp LALT &kp LSFT            &kp RET  &kp SPC  &kp TAB &kp BKSP &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp LBKT RBKT>;
