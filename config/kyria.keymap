@@ -17,7 +17,7 @@
             bindings = <
     &kp ESC  &kp LCTL &kp L &kp M &kp E &kp B                                            &kp Y &kp U  &kp I    &kp O   &kp P    &kp BSLH
     &kp TAB  &kp V &kp UARW &kp Z &kp C &kp X                                            &kp H &kp J  &kp K    &kp L   &kp SCLN &kp QUOT
-    &tog PS &kp LARW &kp DARW &kp RARW &kp T &kp N &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RCTL
+    &tog PS &kp LARW &kp DARW &kp RARW &kp T &mt MOD_LSFT N &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RCTL
                   &kp RET &kp R &kp RET &kp LALT &kp LSFT            &kp RET  &kp SPC  &kp TAB &kp BKSP &kp RALT
             >;
 
@@ -33,7 +33,7 @@
             bindings = <
     &kp ESC  &kp LCTL &kp L &kp M &kp E &kp B                                            &kp Y &kp U  &kp I    &kp O   &kp P    &kp BSLH
     &kp TAB  &kp V &kp UARW &kp Z &kp C &kp X                                            &kp H &kp J  &kp K    &kp L   &kp SCLN &kp QUOT
-    &tog PS &kp LARW &kp DARW &kp RARW &kp T &kp MOD_LSFT N &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RCTL
+    &tog PS &kp LARW &kp DARW &kp RARW &kp T &mt MOD_LSFT N &kp LSFT &kp LSFT        &kp LSFT &kp LSFT &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp RCTL
                   &kp RET &kp R &kp RET &kp LALT &kp LSFT            &kp RET  &kp SPC  &kp TAB &kp BKSP &kp RALT
             >;
 
