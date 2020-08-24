@@ -23,3 +23,5 @@
 
             sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
         };
+    };
+};
